@@ -1,0 +1,32 @@
+Name,Cost/Requirement,Reward
+Golden Crown,Cost: 10 Stars,3 VP
+Treasure Hoard,Cost: 15 Stars,5 VP
+Triumph,Cost: 20 Stars,8 VP
+Rainbow Jewel,Cost: 4 Rainbow cards,4 VP
+Specialist,Cost: 5 of the same Color (all revealed),3 VP
+Risky Venture,Cost: 5 Red (2 Bluff),"4 VP,  if caught, discard and lose -1VP instead"
+Universal Exchange,Cost: 1 of each Color + 1 Stars (1 Bluff),5 VP
+Economic Supremacy,Requirement: Be the richest and have at least 3 more Stars than the 2nd richest player. Cost: all of your extra stars,3 VP
+Card Collector,Requirement: Have 7 cards in hand,3 VP and discard entire hand
+Empty Hands,Requirement: Have 0 cards in hand at the start of your turn. Cost 4 Stars.,3 VP. Permanently increase drawn cards by 1.
+Stacked Influence,Requirement: Have at least 4 BM Stacks,3 VP
+Criminal Empire,Requirement: Have at least 4 CR Stacks,3 VP
+Duality,Requirement: Have at least 3 BM Stacks AND 3 CR Stacks,4 VP
+Ultimate villain,Requirement: Be Mastermind with 5+ CR Stacks. Free.,+2 VP and +2 Stars
+Corporate Lord,Requirement: Be CEO with 5+ BM Stacks. Free.,+2 VP and draw 2 cards
+Unicorn’s Heart (Red),Cost: 2 Rainbow + 3 Stars,+2 VP and Unicorn Horn part
+Unicorn’s Horn (White),Requirement: Have 7 cards in hand or more. 5 Stars.,+2 VP and Unicorn Heart part
+Unicorn’s Wings (Rainbow),Cost: 1 of each Color (not Rainbow),+2 VP and Unicorn Wings part
+Unicorn’s Hooves (Green),,+2 VP and Unicorn Hooves part
+Unicorn’s Tail (Yellow),Requirement: Have at least 3 more Stars than the 2nd richest player. Cost all of your extra stars,+2 VP and Unicorn Tail part
+Unicorn’s Mane (Blue),Have 5 or more Permanent Cards Active,+2 VP and Unicorn Mane part
+Great Council,Requirement: Be both CEO and Mastermind simultaneously. Free,+6 VP
+Purity,Requirement: You must have no Secret Cards nor Illegal cards.,+3 VP
+Mastermind Bonus,Requirement: Be the Mastermind and richest,3 VP + 2 CR
+Hostile Takeover,,3 VP and retrieve any card from discard pile
+Crime Syndicate,,+5 VP
+Master or both worlds,Requirement: Be both a MasterMind and a CEO. Free.,"3 VP, remove 1 BM and CM"
+Blood Money,,3 VP and draw 2 cards
+Clean Business,,3 VP and +1 Star
+Consolation Prize,Requirement: Have the least VP at the start of your turn (no ties). Cost: 3 Stars.,2 VP
+Risky Venture,,

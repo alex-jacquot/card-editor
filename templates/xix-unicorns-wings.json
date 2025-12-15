@@ -1,0 +1,206 @@
+{
+  "version": "1.0.0",
+  "exportDate": "2025-01-27T00:00:00.000Z",
+  "layers": [
+    {
+      "id": "6502385d-ecee-443b-9258-0fa3a0c9cf9e",
+      "assetId": "../../assets/cards/victory_card.png",
+      "name": "victory card",
+      "type": "image",
+      "position": {
+        "x": 180,
+        "y": 159.99998474121094
+      },
+      "scale": {
+        "x": 1.31,
+        "y": 1.33
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/cards/victory_card.png"
+    },
+    {
+      "id": "67d53adf-09fb-495c-9aac-9967211069ba",
+      "assetId": "../../assets/icons/pearl_transparent.png",
+      "name": "pearl transparent",
+      "type": "image",
+      "position": {
+        "x": 282,
+        "y": 422.99998474121094
+      },
+      "scale": {
+        "x": 0.14,
+        "y": 0.15
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/pearl_transparent.png"
+    },
+    {
+      "id": "bf65f9f9-e0c5-42c4-95c9-fc28557deb90",
+      "assetId": "text-box",
+      "name": "title",
+      "type": "text",
+      "position": {
+        "x": 182,
+        "y": 151.5
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "Unicorn's Wings Voucher",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 0,
+      "fontSize": 15,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Arial",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "695baa6f-60b3-4482-992a-2ac72c7b6b57",
+      "assetId": "text-box",
+      "name": "cost",
+      "type": "text",
+      "position": {
+        "x": 212,
+        "y": 320.99998474121094
+      },
+      "scale": {
+        "x": 1.02,
+        "y": 0.08
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "*Cost* : 1 of each **Color** \n(not Rainbow)",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 0,
+      "fontSize": 12,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Arial",
+      "textAlign": "left",
+      "locked": true
+    },
+    {
+      "id": "a92388b5-077f-4065-9ce3-a341805d408f",
+      "assetId": "text-box",
+      "name": "number",
+      "type": "text",
+      "position": {
+        "x": 188,
+        "y": 420.99998474121094
+      },
+      "scale": {
+        "x": 0.09,
+        "y": 0.27
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "2",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 0,
+      "fontSize": 25,
+      "fontBold": true,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Arial",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "0c7188d6-c4cf-491a-b0d0-b9c1a96e47ce",
+      "assetId": "text-box",
+      "name": "extra",
+      "type": "text",
+      "position": {
+        "x": 250,
+        "y": 399.99998474121094
+      },
+      "scale": {
+        "x": 0.65,
+        "y": 0.67
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "+ Unicorn's Wings",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 0,
+      "fontSize": 16,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Arial",
+      "textAlign": "center",
+      "locked": false
+    }
+  ],
+  "metadata": {
+    "canvasSize": {
+      "width": 880,
+      "height": 520
+    }
+  }
+}
