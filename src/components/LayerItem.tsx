@@ -84,6 +84,7 @@ export const LayerItem = ({
       }
       style={{
         zIndex: index + 1,
+        background: 'transparent',
       }}
       onClick={(event: ReactMouseEvent<HTMLDivElement>) => {
         if (layer.locked) {
@@ -107,18 +108,8 @@ export const LayerItem = ({
         style={{
           opacity: layer.opacity,
           transform: `rotate(${layer.rotation}deg)`,
-          background:
-            layer.type === 'text' && layer.backgroundOpacity === 0
-              ? 'transparent'
-              : layer.type === 'image'
-                ? 'transparent'
-                : undefined,
-          border:
-            layer.type === 'text' && layer.backgroundOpacity === 0
-              ? 'none'
-              : layer.type === 'image'
-                ? 'none'
-                : undefined,
+          background: 'transparent',
+          border: 'none',
         }}
       >
         {layer.type === 'image' && layer.src ? (

@@ -1,0 +1,225 @@
+{
+  "version": "1.0.0",
+  "exportDate": "2025-12-28T20:56:41.297Z",
+  "layers": [
+    {
+      "id": "f43a2c1d-d11c-4260-b37b-13f33d6bd6f6",
+      "assetId": "../../assets/cards/card’v4.jpg",
+      "name": "card’v4",
+      "type": "image",
+      "position": {
+        "x": 263,
+        "y": 72
+      },
+      "scale": {
+        "x": 1.63,
+        "y": 1.56
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/cards/card’v4.jpg"
+    },
+    {
+      "id": "df28ed06-cc83-4581-b4bb-712e0dca2312",
+      "assetId": "../../assets/icons/blue_industry.png",
+      "name": "blue industry",
+      "type": "image",
+      "position": {
+        "x": 303,
+        "y": -21
+      },
+      "scale": {
+        "x": 0.2,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/blue_industry.png"
+    },
+    {
+      "id": "5e7b7a17-6ffc-4db3-88cf-8052227484e2",
+      "assetId": "../../assets/images/diversified_industrialist.jpeg",
+      "name": "diversified industrialist",
+      "type": "image",
+      "position": {
+        "x": 307,
+        "y": 84
+      },
+      "scale": {
+        "x": 1.2,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/images/diversified_industrialist.jpeg"
+    },
+    {
+      "id": "c5197437-a5ee-49f1-85de-6f513857fbab",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 300,
+        "y": 49
+      },
+      "scale": {
+        "x": 0.98,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "Diversified Industrialist",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 14,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "14d1b4ab-23d9-4db7-bad1-a2bbd1596dae",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 300,
+        "y": 299
+      },
+      "scale": {
+        "x": 0.94,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 18,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Arial",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "245d0b87-32a7-4775-a188-6b4b16d3a49b",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 296,
+        "y": 291
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "Get +1 **Business Influence** per 2 active **Permanent** cards you have (round down) ",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 13,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "9f61bb5d-dc1f-41a9-8cd5-30f8178ff0ba",
+      "assetId": "../../assets/icons/green_enforcer.png",
+      "name": "green enforcer",
+      "type": "image",
+      "position": {
+        "x": 433,
+        "y": 305
+      },
+      "scale": {
+        "x": 0.17,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/green_enforcer.png"
+    }
+  ],
+  "metadata": {
+    "canvasSize": {
+      "width": 772,
+      "height": 784
+    }
+  }
+}

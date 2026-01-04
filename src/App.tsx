@@ -299,6 +299,7 @@ function App() {
         selectedLayerId={selectedLayerId}
         dragLayerId={dragLayerId}
         maxHistorySize={maxHistorySize}
+        assets={assets}
         onSelect={setSelectedLayerId}
         onDragStart={setDragLayerId}
         onDragEnd={() => setDragLayerId(null)}

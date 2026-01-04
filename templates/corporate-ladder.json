@@ -1,0 +1,271 @@
+{
+  "version": "1.0.0",
+  "exportDate": "2025-12-28T21:54:45.577Z",
+  "layers": [
+    {
+      "id": "f43a2c1d-d11c-4260-b37b-13f33d6bd6f6",
+      "assetId": "../../assets/cards/card’v4.jpg",
+      "name": "card’v4",
+      "type": "image",
+      "position": {
+        "x": 263,
+        "y": 72
+      },
+      "scale": {
+        "x": 1.63,
+        "y": 1.56
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/cards/card’v4.jpg"
+    },
+    {
+      "id": "df28ed06-cc83-4581-b4bb-712e0dca2312",
+      "assetId": "../../assets/icons/green_enforcer.png",
+      "name": "green enforcer",
+      "type": "image",
+      "position": {
+        "x": 303,
+        "y": -21
+      },
+      "scale": {
+        "x": 0.2,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/green_enforcer.png"
+    },
+    {
+      "id": "bffab1a4-13ac-40fc-81d8-ef7be7030bdb",
+      "assetId": "../../assets/icons/secret.png",
+      "name": "secret",
+      "type": "image",
+      "position": {
+        "x": 507,
+        "y": -21
+      },
+      "scale": {
+        "x": 0.21,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/secret.png"
+    },
+    {
+      "id": "5e7b7a17-6ffc-4db3-88cf-8052227484e2",
+      "assetId": "../../assets/images/corporate_ladder.jpeg",
+      "name": "corporate ladder",
+      "type": "image",
+      "position": {
+        "x": 307,
+        "y": 84
+      },
+      "scale": {
+        "x": 1.2,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/images/corporate_ladder.jpeg"
+    },
+    {
+      "id": "c5197437-a5ee-49f1-85de-6f513857fbab",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 300,
+        "y": 49
+      },
+      "scale": {
+        "x": 0.98,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "Corporate ladder",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 18,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "245d0b87-32a7-4775-a188-6b4b16d3a49b",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 296,
+        "y": 284
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "Immediately get same number of **Business Influence** than the CEO.",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 13,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "cafe4bf5-4e59-4cef-bfeb-a98660c8d84d",
+      "assetId": "../../assets/icons/green_enforcer.png",
+      "name": "green enforcer",
+      "type": "image",
+      "position": {
+        "x": 400,
+        "y": 305
+      },
+      "scale": {
+        "x": 0.16,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/green_enforcer.png"
+    },
+    {
+      "id": "2d686666-eaf2-4fd9-95d2-221aa2434c64",
+      "assetId": "../../assets/icons/green_enforcer.png",
+      "name": "green enforcer",
+      "type": "image",
+      "position": {
+        "x": 433,
+        "y": 305
+      },
+      "scale": {
+        "x": 0.16,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/green_enforcer.png"
+    },
+    {
+      "id": "caaa3966-ceb7-45bf-b5fc-068138e21e37",
+      "assetId": "../../assets/icons/red_saboteur.png",
+      "name": "red saboteur",
+      "type": "image",
+      "position": {
+        "x": 466,
+        "y": 305
+      },
+      "scale": {
+        "x": 0.16,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/red_saboteur.png"
+    }
+  ],
+  "metadata": {
+    "canvasSize": {
+      "width": 772,
+      "height": 784
+    }
+  }
+}

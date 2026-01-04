@@ -1,0 +1,260 @@
+{
+  "version": "1.0.0",
+  "exportDate": "2026-01-01T19:25:43.372Z",
+  "layers": [
+    {
+      "id": "f43a2c1d-d11c-4260-b37b-13f33d6bd6f6",
+      "assetId": "../../assets/cards/card’v4.jpg",
+      "name": "card’v4",
+      "type": "image",
+      "position": {
+        "x": 263,
+        "y": 72
+      },
+      "scale": {
+        "x": 1.63,
+        "y": 1.56
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/cards/card’v4.jpg"
+    },
+    {
+      "id": "df28ed06-cc83-4581-b4bb-712e0dca2312",
+      "assetId": "../../assets/icons/green_enforcer.png",
+      "name": "green enforcer",
+      "type": "image",
+      "position": {
+        "x": 303,
+        "y": -21
+      },
+      "scale": {
+        "x": 0.2,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/green_enforcer.png"
+    },
+    {
+      "id": "5e7b7a17-6ffc-4db3-88cf-8052227484e2",
+      "assetId": "../../assets/images/fast-promotion.jpeg",
+      "name": "fast promotion",
+      "type": "image",
+      "position": {
+        "x": 307,
+        "y": 84
+      },
+      "scale": {
+        "x": 1.2,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/images/fast-promotion.jpeg"
+    },
+    {
+      "id": "c5197437-a5ee-49f1-85de-6f513857fbab",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 299,
+        "y": 49
+      },
+      "scale": {
+        "x": 0.98,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "Fast Promotion",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 18,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "14d1b4ab-23d9-4db7-bad1-a2bbd1596dae",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 300,
+        "y": 299
+      },
+      "scale": {
+        "x": 0.94,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 18,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Arial",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "245d0b87-32a7-4775-a188-6b4b16d3a49b",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 296,
+        "y": 294
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "Get 3 **Business Influence**",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 13,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "228ffe84-3659-4fb6-b195-536de1b6c1f5",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 400,
+        "y": 413
+      },
+      "scale": {
+        "x": 0.05,
+        "y": 0.08
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "5",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 20,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "656dcf83-4ebf-485d-a62a-c84279cfc520",
+      "assetId": "../../assets/icons/star2.png",
+      "name": "star2",
+      "type": "image",
+      "position": {
+        "x": 441,
+        "y": 305
+      },
+      "scale": {
+        "x": 0.28,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/star2.png"
+    }
+  ],
+  "metadata": {
+    "canvasSize": {
+      "width": 1362,
+      "height": 803
+    }
+  }
+}

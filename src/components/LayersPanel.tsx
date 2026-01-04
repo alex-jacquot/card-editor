@@ -1,4 +1,4 @@
-import type { Layer } from '../types';
+import type { Layer, AssetDescriptor } from '../types';
 import { LayerControls } from './LayerControls';
 import { LayersList } from './LayersList';
 
@@ -8,6 +8,7 @@ interface LayersPanelProps {
   selectedLayerId: string | null;
   dragLayerId: string | null;
   maxHistorySize: number;
+  assets?: AssetDescriptor[];
   onSelect: (layerId: string) => void;
   onDragStart: (layerId: string) => void;
   onDragEnd: () => void;
@@ -24,6 +25,7 @@ export const LayersPanel = ({
   selectedLayerId,
   dragLayerId,
   maxHistorySize,
+  assets,
   onSelect,
   onDragStart,
   onDragEnd,
@@ -44,6 +46,7 @@ export const LayersPanel = ({
           <LayerControls
             layer={selectedLayer}
             maxHistorySize={maxHistorySize}
+            assets={assets}
             onUpdate={onUpdate}
             onTransformUpdate={onTransformUpdate}
             onDelete={onDelete}

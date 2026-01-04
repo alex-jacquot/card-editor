@@ -35,9 +35,11 @@ export const TransparentImage = ({
       try {
         canvas.width = img.width;
         canvas.height = img.height;
-        const ctx = canvas.getContext('2d');
+        const ctx = canvas.getContext('2d', { alpha: true });
         if (!ctx) return;
 
+        // Clear canvas to ensure transparency
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.drawImage(img, 0, 0);
         const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
         const data = imageData.data;
@@ -74,7 +76,7 @@ export const TransparentImage = ({
           }
 
           ctx.putImageData(imageData, 0, 0);
-          setProcessedSrc(canvas.toDataURL());
+          setProcessedSrc(canvas.toDataURL('image/png'));
         } else {
           setProcessedSrc(null);
         }

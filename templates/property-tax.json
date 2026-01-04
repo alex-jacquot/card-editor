@@ -1,0 +1,341 @@
+{
+  "version": "1.0.0",
+  "exportDate": "2026-01-01T22:31:53.574Z",
+  "layers": [
+    {
+      "id": "f43a2c1d-d11c-4260-b37b-13f33d6bd6f6",
+      "assetId": "../../assets/cards/card’v4.jpg",
+      "name": "card’v4",
+      "type": "image",
+      "position": {
+        "x": 263,
+        "y": 72
+      },
+      "scale": {
+        "x": 1.63,
+        "y": 1.56
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/cards/card’v4.jpg"
+    },
+    {
+      "id": "df28ed06-cc83-4581-b4bb-712e0dca2312",
+      "assetId": "../../assets/icons/blue_industry.png",
+      "name": "blue industry",
+      "type": "image",
+      "position": {
+        "x": 303,
+        "y": -21
+      },
+      "scale": {
+        "x": 0.2,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/blue_industry.png"
+    },
+    {
+      "id": "5e7b7a17-6ffc-4db3-88cf-8052227484e2",
+      "assetId": "../../assets/images/property-tax.jpeg",
+      "name": "property tax",
+      "type": "image",
+      "position": {
+        "x": 307,
+        "y": 84
+      },
+      "scale": {
+        "x": 1.2,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/images/property-tax.jpeg"
+    },
+    {
+      "id": "c5197437-a5ee-49f1-85de-6f513857fbab",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 301,
+        "y": 49
+      },
+      "scale": {
+        "x": 0.98,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "Property Tax",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 18,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "14d1b4ab-23d9-4db7-bad1-a2bbd1596dae",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 300,
+        "y": 299
+      },
+      "scale": {
+        "x": 0.94,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 18,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Arial",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "245d0b87-32a7-4775-a188-6b4b16d3a49b",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 294,
+        "y": 290
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "Other players pay you 1 **Star** per active **Permanent** card they have.",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 13,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "061711ce-d5d9-46f2-803b-1b0fb443cfa8",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 397,
+        "y": 416
+      },
+      "scale": {
+        "x": 0.04,
+        "y": 0.08
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 18,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "6b04e0cb-9d8c-41c4-be55-35e9b8bc8e44",
+      "assetId": "../../assets/icons/yellow_banker.png",
+      "name": "yellow banker",
+      "type": "image",
+      "position": {
+        "x": 467,
+        "y": 305
+      },
+      "scale": {
+        "x": 0.17,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/yellow_banker.png"
+    },
+    {
+      "id": "aecb574b-7b9a-4e31-8204-5494302b97fe",
+      "assetId": "../../assets/icons/blue_industry.png",
+      "name": "blue industry",
+      "type": "image",
+      "position": {
+        "x": 395,
+        "y": 305
+      },
+      "scale": {
+        "x": 0.17,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/blue_industry.png"
+    },
+    {
+      "id": "f23fe26d-3f42-400a-9776-79a3b2117e3d",
+      "assetId": "../../assets/icons/green_enforcer.png",
+      "name": "green enforcer",
+      "type": "image",
+      "position": {
+        "x": 431,
+        "y": 305
+      },
+      "scale": {
+        "x": 0.17,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/green_enforcer.png"
+    },
+    {
+      "id": "a198f2fb-81de-4c1d-9006-36b7493bf748",
+      "assetId": "../../assets/icons/yellow_banker.png",
+      "name": "yellow banker",
+      "type": "image",
+      "position": {
+        "x": 503,
+        "y": 305
+      },
+      "scale": {
+        "x": 0.17,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/yellow_banker.png"
+    }
+  ],
+  "metadata": {
+    "canvasSize": {
+      "width": 1362,
+      "height": 803
+    }
+  }
+}

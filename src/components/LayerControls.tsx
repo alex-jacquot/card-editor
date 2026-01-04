@@ -1,9 +1,10 @@
-import type { Layer } from '../types';
+import type { Layer, AssetDescriptor } from '../types';
 import { FONT_FAMILIES } from '../utils/constants';
 
 interface LayerControlsProps {
   layer: Layer;
   maxHistorySize: number;
+  assets?: AssetDescriptor[];
   onUpdate: (layerId: string, patch: Partial<Layer>) => void;
   onTransformUpdate: (layerId: string, transform: Partial<Layer['position'] | Layer['scale']>, kind: 'position' | 'scale') => void;
   onDelete: (layerId: string) => void;
@@ -13,11 +14,14 @@ interface LayerControlsProps {
 export const LayerControls = ({
   layer,
   maxHistorySize,
+  assets = [],
   onUpdate,
   onTransformUpdate,
   onDelete,
   onMaxHistorySizeChange,
 }: LayerControlsProps) => {
+  // Filter to only image assets
+  const imageAssets = assets.filter((asset) => asset.type === 'image' && asset.src);
   return (
     <div className="layer-controls">
       <h3>Layer Settings</h3>
@@ -164,6 +168,34 @@ export const LayerControls = ({
       </label>
       {layer.type === 'image' && (
         <>
+          <label>
+            Image Source
+            <select
+              value={layer.assetId || ''}
+              onChange={(event) => {
+                const selectedAsset = imageAssets.find((asset) => asset.id === event.target.value);
+                if (selectedAsset) {
+                  // Only update src, assetId, and name - preserve all other attributes
+                  onUpdate(layer.id, {
+                    src: selectedAsset.src,
+                    assetId: selectedAsset.id,
+                    name: selectedAsset.name,
+                  });
+                }
+              }}
+              style={{ marginTop: '0.25rem', width: '100%' }}
+            >
+              <option value="">Select an image...</option>
+              {imageAssets.map((asset) => (
+                <option key={asset.id} value={asset.id}>
+                  {asset.name}
+                </option>
+              ))}
+            </select>
+            <small className="control-hint">
+              Change the image while keeping position, scale, rotation, and other properties
+            </small>
+          </label>
           <div className="experimental-section">
             <h4>Experimental: Color Transparency</h4>
             <p className="experimental-note">

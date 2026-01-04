@@ -1,0 +1,225 @@
+{
+  "version": "1.0.0",
+  "exportDate": "2026-01-01T16:57:45.179Z",
+  "layers": [
+    {
+      "id": "f43a2c1d-d11c-4260-b37b-13f33d6bd6f6",
+      "assetId": "../../assets/cards/card’v4.jpg",
+      "name": "card’v4",
+      "type": "image",
+      "position": {
+        "x": 263,
+        "y": 72
+      },
+      "scale": {
+        "x": 1.63,
+        "y": 1.56
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/cards/card’v4.jpg"
+    },
+    {
+      "id": "5e7b7a17-6ffc-4db3-88cf-8052227484e2",
+      "assetId": "../../assets/images/jail-business.jpeg",
+      "name": "jail business",
+      "type": "image",
+      "position": {
+        "x": 307,
+        "y": 84
+      },
+      "scale": {
+        "x": 1.2,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/images/jail-business.jpeg"
+    },
+    {
+      "id": "c5197437-a5ee-49f1-85de-6f513857fbab",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 300,
+        "y": 48.649993896484375
+      },
+      "scale": {
+        "x": 0.98,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "Jail Business",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 18,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "14d1b4ab-23d9-4db7-bad1-a2bbd1596dae",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 300,
+        "y": 299
+      },
+      "scale": {
+        "x": 0.94,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 18,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Arial",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "245d0b87-32a7-4775-a188-6b4b16d3a49b",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 295,
+        "y": 291
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "*Permanent*\nYou get +1 **Star** anytime you spend a turn in **Jail**",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 13,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "df28ed06-cc83-4581-b4bb-712e0dca2312",
+      "assetId": "../../assets/icons/yellow_banker.png",
+      "name": "yellow banker",
+      "type": "image",
+      "position": {
+        "x": 303,
+        "y": -21
+      },
+      "scale": {
+        "x": 0.2,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/yellow_banker.png"
+    },
+    {
+      "id": "1d07e040-ad19-4f65-9576-444dbf5ac5b8",
+      "assetId": "../../assets/icons/red_saboteur.png",
+      "name": "red saboteur",
+      "type": "image",
+      "position": {
+        "x": 439,
+        "y": 304
+      },
+      "scale": {
+        "x": 0.17,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/red_saboteur.png"
+    }
+  ],
+  "metadata": {
+    "canvasSize": {
+      "width": 1362,
+      "height": 803
+    }
+  }
+}

@@ -330,14 +330,59 @@ button.danger {
   text-align: center;
 }
 
+/* Remove background from react-rnd wrapper and all children */
+.react-rnd {
+  background: transparent !important;
+}
+
+.react-rnd * {
+  background: transparent !important;
+}
+
+.react-rnd::before,
+.react-rnd::after {
+  display: none !important;
+  background: transparent !important;
+}
+
+.react-rnd > * {
+  background: transparent !important;
+}
+
+/* Hide all resize handles */
+.react-resizable-handle {
+  display: none !important;
+}
+
+.react-resizable-handle-se,
+.react-resizable-handle-sw,
+.react-resizable-handle-nw,
+.react-resizable-handle-ne,
+.react-resizable-handle-w,
+.react-resizable-handle-e,
+.react-resizable-handle-n,
+.react-resizable-handle-s {
+  display: none !important;
+}
+
 .layer-item {
   width: 100%;
   height: 100%;
   position: relative;
   border-radius: 1rem;
   overflow: hidden;
-  border: 2px solid transparent;
-  background: #ffffff;
+  border: none !important;
+  background: transparent !important;
+}
+
+.layer-item * {
+  background: transparent !important;
+}
+
+.layer-item::before,
+.layer-item::after {
+  display: none !important;
+  background: transparent !important;
 }
 
 .layer-item.image-layer {
@@ -351,7 +396,7 @@ button.danger {
   height: 100%;
   min-width: 100px;
   min-height: 40px;
-  border: 2px dashed rgba(148, 163, 184, 0.3);
+  border: none;
   transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
   border-radius: 0.5rem;
   box-sizing: border-box;
@@ -360,32 +405,43 @@ button.danger {
 }
 
 .layer-selected {
-  border-color: #3b82f6;
-  box-shadow: 0 0 0 6px rgba(59, 130, 246, 0.2);
+  border-color: transparent;
+  box-shadow: none;
 }
 
 .layer-item.image-layer.layer-selected {
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+  box-shadow: none;
 }
 
 .layer-item.text-no-background.layer-selected {
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+  box-shadow: none;
 }
 
 .layer-item.text-layer-container.layer-selected {
-  border-color: #3b82f6;
-  border-style: solid;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
-  background: rgba(59, 130, 246, 0.05);
+  border-color: transparent;
+  border-style: none;
+  box-shadow: none;
+  background: transparent;
 }
 
 /* Show boundary during drag */
 .react-draggable-dragging .layer-item.text-layer-container,
 .react-draggable-dragging .text-layer-container {
-  border-color: #60a5fa !important;
-  border-style: dashed !important;
-  box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.4) !important;
-  background: rgba(96, 165, 250, 0.08) !important;
+  border-color: transparent !important;
+  border-style: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+.react-draggable-dragging,
+.react-draggable-dragging * {
+  background: transparent !important;
+}
+
+.react-draggable-dragging::before,
+.react-draggable-dragging::after {
+  display: none !important;
+  background: transparent !important;
 }
 
 .layer-item img {
@@ -393,6 +449,7 @@ button.danger {
   height: 100%;
   object-fit: contain;
   display: block;
+  background: transparent;
 }
 
 .tint-overlay {
