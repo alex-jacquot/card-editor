@@ -136,26 +136,212 @@ export const useExport = (
         img.src = fullDataUrl;
       });
 
-      // Create a canvas for the cropped export
+      // Create a temporary canvas to analyze the image
+      const tempCanvas = document.createElement('canvas');
+      tempCanvas.width = img.width;
+      tempCanvas.height = img.height;
+      const tempCtx = tempCanvas.getContext('2d', { willReadFrequently: true });
+      if (!tempCtx) throw new Error('Could not get canvas context');
+      
+      tempCtx.drawImage(img, 0, 0);
+      const imageData = tempCtx.getImageData(0, 0, tempCanvas.width, tempCanvas.height);
+      const data = imageData.data;
+
+      // Detect background color by sampling corners and edges
+      const samplePoints: number[] = [];
+      const sampleSize = 10; // Sample 10 pixels from each corner
+      
+      // Sample corners
+      for (let i = 0; i < sampleSize; i++) {
+        const x = i;
+        const y = i;
+        const idx = (y * tempCanvas.width + x) * 4;
+        samplePoints.push(data[idx], data[idx + 1], data[idx + 2], data[idx + 3]);
+      }
+      
+      for (let i = 0; i < sampleSize; i++) {
+        const x = tempCanvas.width - 1 - i;
+        const y = i;
+        const idx = (y * tempCanvas.width + x) * 4;
+        samplePoints.push(data[idx], data[idx + 1], data[idx + 2], data[idx + 3]);
+      }
+      
+      for (let i = 0; i < sampleSize; i++) {
+        const x = i;
+        const y = tempCanvas.height - 1 - i;
+        const idx = (y * tempCanvas.width + x) * 4;
+        samplePoints.push(data[idx], data[idx + 1], data[idx + 2], data[idx + 3]);
+      }
+      
+      for (let i = 0; i < sampleSize; i++) {
+        const x = tempCanvas.width - 1 - i;
+        const y = tempCanvas.height - 1 - i;
+        const idx = (y * tempCanvas.width + x) * 4;
+        samplePoints.push(data[idx], data[idx + 1], data[idx + 2], data[idx + 3]);
+      }
+
+      // Find most common background color (or use transparent if most samples are transparent)
+      const bgColors = new Map<string, number>();
+      for (let i = 0; i < samplePoints.length; i += 4) {
+        const r = samplePoints[i];
+        const g = samplePoints[i + 1];
+        const b = samplePoints[i + 2];
+        const a = samplePoints[i + 3];
+        const key = `${r},${g},${b},${a}`;
+        bgColors.set(key, (bgColors.get(key) || 0) + 1);
+      }
+      
+      let mostCommon = '';
+      let maxCount = 0;
+      bgColors.forEach((count, key) => {
+        if (count > maxCount) {
+          maxCount = count;
+          mostCommon = key;
+        }
+      });
+      
+      const [bgR, bgG, bgB, bgA] = mostCommon.split(',').map(Number);
+      const tolerance = 5; // Color matching tolerance
+
+      // Function to check if a pixel matches the background
+      const isBackground = (r: number, g: number, b: number, a: number): boolean => {
+        if (bgA < 10) {
+          // Background is transparent - check alpha
+          return a < 10;
+        }
+        // Background has color - check RGB with tolerance
+        return (
+          Math.abs(r - bgR) <= tolerance &&
+          Math.abs(g - bgG) <= tolerance &&
+          Math.abs(b - bgB) <= tolerance
+        );
+      };
+
+      // Find content bounds by scanning from edges
+      let cropMinX = 0;
+      let cropMinY = 0;
+      let cropMaxX = tempCanvas.width;
+      let cropMaxY = tempCanvas.height;
+
+      // Scan from top
+      for (let y = 0; y < tempCanvas.height; y++) {
+        let hasContent = false;
+        for (let x = 0; x < tempCanvas.width; x++) {
+          const idx = (y * tempCanvas.width + x) * 4;
+          const r = data[idx];
+          const g = data[idx + 1];
+          const b = data[idx + 2];
+          const a = data[idx + 3];
+          if (!isBackground(r, g, b, a)) {
+            hasContent = true;
+            break;
+          }
+        }
+        if (hasContent) {
+          cropMinY = y;
+          break;
+        }
+      }
+
+      // Scan from bottom
+      for (let y = tempCanvas.height - 1; y >= 0; y--) {
+        let hasContent = false;
+        for (let x = 0; x < tempCanvas.width; x++) {
+          const idx = (y * tempCanvas.width + x) * 4;
+          const r = data[idx];
+          const g = data[idx + 1];
+          const b = data[idx + 2];
+          const a = data[idx + 3];
+          if (!isBackground(r, g, b, a)) {
+            hasContent = true;
+            break;
+          }
+        }
+        if (hasContent) {
+          cropMaxY = y + 1;
+          break;
+        }
+      }
+
+      // Scan from left
+      for (let x = 0; x < tempCanvas.width; x++) {
+        let hasContent = false;
+        for (let y = cropMinY; y < cropMaxY; y++) {
+          const idx = (y * tempCanvas.width + x) * 4;
+          const r = data[idx];
+          const g = data[idx + 1];
+          const b = data[idx + 2];
+          const a = data[idx + 3];
+          if (!isBackground(r, g, b, a)) {
+            hasContent = true;
+            break;
+          }
+        }
+        if (hasContent) {
+          cropMinX = x;
+          break;
+        }
+      }
+
+      // Scan from right
+      for (let x = tempCanvas.width - 1; x >= 0; x--) {
+        let hasContent = false;
+        for (let y = cropMinY; y < cropMaxY; y++) {
+          const idx = (y * tempCanvas.width + x) * 4;
+          const r = data[idx];
+          const g = data[idx + 1];
+          const b = data[idx + 2];
+          const a = data[idx + 3];
+          if (!isBackground(r, g, b, a)) {
+            hasContent = true;
+            break;
+          }
+        }
+        if (hasContent) {
+          cropMaxX = x + 1;
+          break;
+        }
+      }
+
+      // Add small padding
+      const cropPadding = 5;
+      cropMinX = Math.max(0, cropMinX - cropPadding);
+      cropMinY = Math.max(0, cropMinY - cropPadding);
+      cropMaxX = Math.min(tempCanvas.width, cropMaxX + cropPadding);
+      cropMaxY = Math.min(tempCanvas.height, cropMaxY + cropPadding);
+
+      const finalWidth = cropMaxX - cropMinX;
+      const finalHeight = cropMaxY - cropMinY;
+
+      console.log('[Export] Auto-cropped bounds', {
+        cropMinX,
+        cropMinY,
+        cropMaxX,
+        cropMaxY,
+        finalWidth,
+        finalHeight,
+        backgroundColor: `rgba(${bgR}, ${bgG}, ${bgB}, ${bgA})`,
+      });
+
+      // Create final export canvas with cropped dimensions
       const exportCanvas = document.createElement('canvas');
       const ctx = exportCanvas.getContext('2d');
       if (!ctx) throw new Error('Could not get canvas context');
 
-      // Set canvas size to the bounding box (with padding)
-      exportCanvas.width = exportWidth * 2; // pixelRatio 2
-      exportCanvas.height = exportHeight * 2;
+      exportCanvas.width = finalWidth;
+      exportCanvas.height = finalHeight;
 
       // Draw the cropped portion
       ctx.drawImage(
-        img,
-        minX * 2, // Source x (accounting for pixelRatio)
-        minY * 2, // Source y
-        exportWidth * 2, // Source width
-        exportHeight * 2, // Source height
-        0, // Destination x
-        0, // Destination y
-        exportWidth * 2, // Destination width
-        exportHeight * 2, // Destination height
+        tempCanvas,
+        cropMinX,
+        cropMinY,
+        finalWidth,
+        finalHeight,
+        0,
+        0,
+        finalWidth,
+        finalHeight,
       );
 
       // Convert to blob
