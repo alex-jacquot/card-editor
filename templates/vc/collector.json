@@ -1,0 +1,392 @@
+{
+  "version": "1.0.0",
+  "exportDate": "2026-01-05T21:35:15.458Z",
+  "layers": [
+    {
+      "id": "ef5144cd-a7bf-470a-814e-784403c61628",
+      "assetId": "../../assets/cards/victory_card_v2.jpeg",
+      "name": "victory card v2",
+      "type": "image",
+      "position": {
+        "x": 180,
+        "y": 160
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/cards/victory_card_v2.jpeg"
+    },
+    {
+      "id": "a5af17c0-323f-46c7-9839-29802eb650d5",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 213,
+        "y": 170
+      },
+      "scale": {
+        "x": 0.52,
+        "y": 0.3
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "Collector",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 13,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "d4bd763f-2a59-4f3e-8e18-705cf254ca0e",
+      "assetId": "../../assets/icons/requirements.png",
+      "name": "requirements",
+      "type": "image",
+      "position": {
+        "x": 224,
+        "y": 125
+      },
+      "scale": {
+        "x": 0.08,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/requirements.png"
+    },
+    {
+      "id": "2b4eec78-48c8-43d4-aeb9-15a8fe7a777d",
+      "assetId": "../../assets/icons/cost.png",
+      "name": "cost",
+      "type": "image",
+      "position": {
+        "x": 218,
+        "y": 298
+      },
+      "scale": {
+        "x": 0.14,
+        "y": 0.1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/cost.png"
+    },
+    {
+      "id": "60816e62-d9bf-43a5-bd43-684d0ef5ff29",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 161,
+        "y": 194.99998474121094
+      },
+      "scale": {
+        "x": 0.98,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "Have 7 cards in hand",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 10,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "04caa100-18aa-4f76-9c87-ac4a21ae3fc3",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 169,
+        "y": 346
+      },
+      "scale": {
+        "x": 0.63,
+        "y": 0.5
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "3      &",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 18,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Arial",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "0143909b-f274-4b29-b8cb-6f2d15119b34",
+      "assetId": "../../assets/icons/pearl_transparent.png",
+      "name": "pearl transparent",
+      "type": "image",
+      "position": {
+        "x": 237,
+        "y": 246
+      },
+      "scale": {
+        "x": 0.12,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/pearl_transparent.png"
+    },
+    {
+      "id": "b190e2b5-4634-4bf4-96ed-0b9e862216ec",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 250,
+        "y": 338
+      },
+      "scale": {
+        "x": 0.47,
+        "y": 0.63
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "+1 card drawn permanently",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 10,
+      "fontBold": true,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Arial",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "74b33fed-147e-4bcf-83a6-30dbf9a7f3fd",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 264,
+        "y": 297.99998474121094
+      },
+      "scale": {
+        "x": 0.04,
+        "y": 0.08
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 18,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Arial",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "b7c33e1d-a333-4564-abba-8cee4ef7a548",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 228,
+        "y": 281
+      },
+      "scale": {
+        "x": 0.54,
+        "y": 0.08
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "Discard of all the \ncards in your hand.\n",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 10,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "9f49f77d-942d-46a1-9e1c-7a322972ede9",
+      "assetId": "../../assets/icons/star2.png",
+      "name": "star2",
+      "type": "image",
+      "position": {
+        "x": 297,
+        "y": 197
+      },
+      "scale": {
+        "x": 0.15,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/star2.png"
+    },
+    {
+      "id": "e42e3402-ac8e-4f20-ba67-b09001130327",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 243,
+        "y": 306
+      },
+      "scale": {
+        "x": 0.04,
+        "y": 0.08
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "11",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 13,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Arial",
+      "textAlign": "center",
+      "locked": false
+    }
+  ],
+  "metadata": {
+    "canvasSize": {
+      "width": 772,
+      "height": 992
+    }
+  }
+}

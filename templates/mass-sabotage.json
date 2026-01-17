@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "exportDate": "2025-12-29T10:09:01.551Z",
+  "exportDate": "2026-01-05T19:06:31.127Z",
   "layers": [
     {
       "id": "f43a2c1d-d11c-4260-b37b-13f33d6bd6f6",
@@ -173,7 +173,7 @@
       "rotation": 0,
       "opacity": 1,
       "tint": "#000000",
-      "text": "Destroy 1 permanent card in play for each other player. You choose which one gets destroyed",
+      "text": "Destroy 1 **active Permanent** card for each other player. You choose which one gets destroyed",
       "transparencyColors": [
         null,
         null
@@ -326,8 +326,8 @@
   ],
   "metadata": {
     "canvasSize": {
-      "width": 772,
-      "height": 784
+      "width": 809,
+      "height": 1219
     }
   }
 }

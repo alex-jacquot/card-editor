@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "exportDate": "2026-01-03T12:50:01.492Z",
+  "exportDate": "2026-01-05T18:56:44.232Z",
   "layers": [
     {
       "id": "f43a2c1d-d11c-4260-b37b-13f33d6bd6f6",
@@ -173,7 +173,7 @@
       "rotation": 0,
       "opacity": 1,
       "tint": "#000000",
-      "text": "*Reaction*\nWhen another player does a payment with at least 1 Bluff, challenge the player and reveal **all Bluffed cards**, you do not get a **Fine** if you fail the challenge.",
+      "text": "*Reaction*\nWhen another player does a payment with at least 1 **Bluff**, challenge the player and reveal **all Bluffed cards**, you do not get a **Fine** if you fail the challenge.",
       "transparencyColors": [
         null,
         null
@@ -253,8 +253,8 @@
   ],
   "metadata": {
     "canvasSize": {
-      "width": 772,
-      "height": 784
+      "width": 809,
+      "height": 1219
     }
   }
 }

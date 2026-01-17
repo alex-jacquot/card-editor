@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "exportDate": "2025-12-28T21:09:16.111Z",
+  "exportDate": "2026-01-05T18:33:32.646Z",
   "layers": [
     {
       "id": "f43a2c1d-d11c-4260-b37b-13f33d6bd6f6",
@@ -281,7 +281,7 @@
       "rotation": 0,
       "opacity": 1,
       "tint": "#000000",
-      "text": "*Permanent*\nPlace 2 **Power Pearls** on this card when placed. Whoever currently owns the card owns the VP.",
+      "text": "*Permanent*\nPlace 2 **Power Pearls** on this card when placed. Whoever currently owns the card owns the **Power Pearls**.",
       "transparencyColors": [
         null,
         null
@@ -299,8 +299,8 @@
   ],
   "metadata": {
     "canvasSize": {
-      "width": 772,
-      "height": 784
+      "width": 809,
+      "height": 1219
     }
   }
 }

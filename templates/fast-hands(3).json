@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "exportDate": "2026-01-07T19:57:49.194Z",
+  "layers": [
+    {
+      "id": "e7fe5a09-e766-4f3a-ac10-6ab0edcf3878",
+      "assetId": "../../assets/cards/payment-row-v2.png",
+      "name": "payment row v2",
+      "type": "image",
+      "position": {
+        "x": 180,
+        "y": 160
+      },
+      "scale": {
+        "x": 4.24,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/cards/payment-row-v2.png"
+    }
+  ],
+  "metadata": {
+    "canvasSize": {
+      "width": 1362,
+      "height": 803
+    }
+  }
+}

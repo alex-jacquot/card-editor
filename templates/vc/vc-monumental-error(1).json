@@ -1,0 +1,357 @@
+{
+  "version": "1.0.0",
+  "exportDate": "2026-01-13T20:45:35.572Z",
+  "layers": [
+    {
+      "id": "ef5144cd-a7bf-470a-814e-784403c61628",
+      "assetId": "../../assets/cards/victory_card_v2.jpeg",
+      "name": "victory card v2",
+      "type": "image",
+      "position": {
+        "x": 180,
+        "y": 160
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/cards/victory_card_v2.jpeg"
+    },
+    {
+      "id": "a5af17c0-323f-46c7-9839-29802eb650d5",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 200,
+        "y": 170.99998474121094
+      },
+      "scale": {
+        "x": 0.62,
+        "y": 0.3
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "Monumental error",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 12,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "d4bd763f-2a59-4f3e-8e18-705cf254ca0e",
+      "assetId": "../../assets/icons/requirements.png",
+      "name": "requirements",
+      "type": "image",
+      "position": {
+        "x": 224,
+        "y": 125
+      },
+      "scale": {
+        "x": 0.08,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/requirements.png"
+    },
+    {
+      "id": "2b4eec78-48c8-43d4-aeb9-15a8fe7a777d",
+      "assetId": "../../assets/icons/cost.png",
+      "name": "cost",
+      "type": "image",
+      "position": {
+        "x": 218,
+        "y": 298
+      },
+      "scale": {
+        "x": 0.14,
+        "y": 0.1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/cost.png"
+    },
+    {
+      "id": "60816e62-d9bf-43a5-bd43-684d0ef5ff29",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 227,
+        "y": 196
+      },
+      "scale": {
+        "x": 0.51,
+        "y": 0.98
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "Have at least 3 active **Great Unicorn** cards",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 11,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "74b33fed-147e-4bcf-83a6-30dbf9a7f3fd",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 288,
+        "y": 318.99998474121094
+      },
+      "scale": {
+        "x": 0.04,
+        "y": 0.08
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 18,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Arial",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "c1649355-04e9-47cf-84d2-d2d64249fc49",
+      "assetId": "../../assets/icons/star2.png",
+      "name": "star2",
+      "type": "image",
+      "position": {
+        "x": 282,
+        "y": 169
+      },
+      "scale": {
+        "x": 0.13,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/star2.png"
+    },
+    {
+      "id": "973f2fda-a154-4bf1-8384-849941a0d8c1",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 231,
+        "y": 277
+      },
+      "scale": {
+        "x": 0.04,
+        "y": 0.23
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "7",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 16,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "0143909b-f274-4b29-b8cb-6f2d15119b34",
+      "assetId": "../../assets/icons/pearl_transparent.png",
+      "name": "pearl transparent",
+      "type": "image",
+      "position": {
+        "x": 277,
+        "y": 247
+      },
+      "scale": {
+        "x": 0.12,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/pearl_transparent.png"
+    },
+    {
+      "id": "c1b4e6dc-a764-4d2b-9bc4-1157c42772e3",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 218,
+        "y": 353
+      },
+      "scale": {
+        "x": 0.04,
+        "y": 0.08
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "5",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 16,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "ff271aab-fe21-4048-bf1c-2121656b9458",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 222,
+        "y": 277
+      },
+      "scale": {
+        "x": 0.55,
+        "y": 0.67
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "\nDiscard  all your \nactive **Great Unicorn**",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 10,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    }
+  ],
+  "metadata": {
+    "canvasSize": {
+      "width": 1055,
+      "height": 636
+    }
+  }
+}

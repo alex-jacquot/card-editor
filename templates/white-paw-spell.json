@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "exportDate": "2025-12-29T20:47:30.431Z",
+  "exportDate": "2026-01-05T19:01:34.840Z",
   "layers": [
     {
       "id": "f43a2c1d-d11c-4260-b37b-13f33d6bd6f6",
@@ -227,7 +227,7 @@
       "rotation": 0,
       "opacity": 1,
       "tint": "#000000",
-      "text": "Any payment with *Bluffs* that you pay without bluffing any cards nets you +1 **Star** per possible Bluffs.",
+      "text": "Any payment with possible **Bluffs** that you pay without bluffing any cards nets you +1 **Star** per possible **Bluff**.",
       "transparencyColors": [
         null,
         null
@@ -245,8 +245,8 @@
   ],
   "metadata": {
     "canvasSize": {
-      "width": 1362,
-      "height": 803
+      "width": 809,
+      "height": 1196
     }
   }
 }

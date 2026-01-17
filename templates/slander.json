@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "exportDate": "2025-12-27T20:27:18.543Z",
+  "exportDate": "2026-01-05T19:03:39.648Z",
   "layers": [
     {
       "id": "f43a2c1d-d11c-4260-b37b-13f33d6bd6f6",
@@ -262,7 +262,7 @@
       "rotation": 0,
       "opacity": 1,
       "tint": "#000000",
-      "text": "Give the CEO 1 turn of Jail. Remove 2 of his **Business Influence**.",
+      "text": "Give the **CEO** 1 turn of **Jail**. Remove 2 of his **Business Influence**.",
       "transparencyColors": [
         null,
         null
@@ -280,8 +280,8 @@
   ],
   "metadata": {
     "canvasSize": {
-      "width": 880,
-      "height": 565
+      "width": 809,
+      "height": 1219
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "exportDate": "2026-01-03T22:42:57.993Z",
+  "exportDate": "2026-01-04T17:00:01.740Z",
   "layers": [
     {
       "id": "f43a2c1d-d11c-4260-b37b-13f33d6bd6f6",
@@ -182,8 +182,8 @@
     },
     {
       "id": "fcab3150-d625-4b0c-af15-787cf4874449",
-      "assetId": "../../assets/icons/CEOcircled_transparent.png",
-      "name": "CEOcircled transparent",
+      "assetId": "../../assets/icons/CEO_transparent.png",
+      "name": "CEO transparent",
       "type": "image",
       "position": {
         "x": 327,
@@ -205,7 +205,7 @@
         null
       ],
       "locked": false,
-      "assetPath": "../../assets/icons/CEOcircled_transparent.png"
+      "assetPath": "../../assets/icons/CEO_transparent.png"
     }
   ],
   "metadata": {

@@ -1,0 +1,109 @@
+{
+  "version": "1.0.0",
+  "exportDate": "2026-01-16T13:13:17.033Z",
+  "layers": [
+    {
+      "id": "309eef11-9867-4e9f-9470-13a655ee0573",
+      "assetId": "../../assets/cards/player-stasher.jpeg",
+      "name": "player stasher",
+      "type": "image",
+      "position": {
+        "x": 180,
+        "y": 160
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/cards/player-stasher.jpeg"
+    },
+    {
+      "id": "988caf73-5dc9-4555-9581-f9fbf95552ad",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 157,
+        "y": 122
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "The Stasher",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 15,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "e76a2fdb-0471-48e2-a4b1-612ec2a2fcae",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 197,
+        "y": 241
+      },
+      "scale": {
+        "x": 0.65,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "You may always draw **ignoring your max hand size**, if you don't already exceed it before drawing.",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 9,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Arial",
+      "textAlign": "center",
+      "locked": false
+    }
+  ],
+  "metadata": {
+    "canvasSize": {
+      "width": 1039,
+      "height": 420
+    }
+  }
+}

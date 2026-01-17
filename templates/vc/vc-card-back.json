@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "exportDate": "2026-01-05T11:08:07.900Z",
+  "layers": [
+    {
+      "id": "0f87b509-63bb-410f-8cc7-f5842ac59594",
+      "assetId": "../../assets/cards/victory_back_card.jpeg",
+      "name": "victory back card",
+      "type": "image",
+      "position": {
+        "x": 180,
+        "y": 160
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/cards/victory_back_card.jpeg"
+    },
+    {
+      "id": "8f14cd9b-e04c-48b8-91bd-79c7129574f7",
+      "assetId": "../../assets/icons/pearl_transparent_alt.png",
+      "name": "pearl transparent alt",
+      "type": "image",
+      "position": {
+        "x": 256,
+        "y": 149.00001525878906
+      },
+      "scale": {
+        "x": 0.23,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/pearl_transparent_alt.png"
+    }
+  ],
+  "metadata": {
+    "canvasSize": {
+      "width": 772,
+      "height": 753
+    }
+  }
+}

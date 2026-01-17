@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "exportDate": "2026-01-02T11:27:18.815Z",
+  "exportDate": "2026-01-05T18:22:50.285Z",
   "layers": [
     {
       "id": "f43a2c1d-d11c-4260-b37b-13f33d6bd6f6",
@@ -227,7 +227,7 @@
       "rotation": 0,
       "opacity": 1,
       "tint": "#000000",
-      "text": "\n**Permanent**\n\nWhenever a **Victory Card** gets redeemed by another player, get +1 **Star**",
+      "text": "\n**Permanent**\n\nWhenever a **Voucher Card** gets redeemed by another player, get +1 **Star**",
       "transparencyColors": [
         null,
         null
@@ -245,8 +245,8 @@
   ],
   "metadata": {
     "canvasSize": {
-      "width": 772,
-      "height": 784
+      "width": 1055,
+      "height": 664
     }
   }
 }

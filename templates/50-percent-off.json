@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "exportDate": "2026-01-04T15:32:11.554Z",
+  "exportDate": "2026-01-04T15:32:40.248Z",
   "layers": [
     {
       "id": "f43a2c1d-d11c-4260-b37b-13f33d6bd6f6",
@@ -31,8 +31,8 @@
     },
     {
       "id": "df28ed06-cc83-4581-b4bb-712e0dca2312",
-      "assetId": "../../assets/icons/green_enforcer.png",
-      "name": "green enforcer",
+      "assetId": "../../assets/icons/yellow_banker.png",
+      "name": "yellow banker",
       "type": "image",
       "position": {
         "x": 303,
@@ -54,7 +54,7 @@
         null
       ],
       "locked": false,
-      "assetPath": "../../assets/icons/green_enforcer.png"
+      "assetPath": "../../assets/icons/yellow_banker.png"
     },
     {
       "id": "5e7b7a17-6ffc-4db3-88cf-8052227484e2",

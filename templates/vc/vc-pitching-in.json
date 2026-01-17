@@ -1,0 +1,422 @@
+{
+  "version": "1.0.0",
+  "exportDate": "2026-01-13T20:56:36.769Z",
+  "layers": [
+    {
+      "id": "ef5144cd-a7bf-470a-814e-784403c61628",
+      "assetId": "../../assets/cards/victory_card_v2.jpeg",
+      "name": "victory card v2",
+      "type": "image",
+      "position": {
+        "x": 180,
+        "y": 160
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/cards/victory_card_v2.jpeg"
+    },
+    {
+      "id": "a5af17c0-323f-46c7-9839-29802eb650d5",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 199,
+        "y": 170
+      },
+      "scale": {
+        "x": 0.65,
+        "y": 0.3
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "Pitching in",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 13,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "d4bd763f-2a59-4f3e-8e18-705cf254ca0e",
+      "assetId": "../../assets/icons/requirements.png",
+      "name": "requirements",
+      "type": "image",
+      "position": {
+        "x": 224,
+        "y": 125
+      },
+      "scale": {
+        "x": 0.08,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/requirements.png"
+    },
+    {
+      "id": "2b4eec78-48c8-43d4-aeb9-15a8fe7a777d",
+      "assetId": "../../assets/icons/cost.png",
+      "name": "cost",
+      "type": "image",
+      "position": {
+        "x": 218,
+        "y": 298
+      },
+      "scale": {
+        "x": 0.14,
+        "y": 0.1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/cost.png"
+    },
+    {
+      "id": "b7c33e1d-a333-4564-abba-8cee4ef7a548",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 230,
+        "y": 289
+      },
+      "scale": {
+        "x": 0.1,
+        "y": 0.1
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 17,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "c7015afb-18fc-4758-b96d-94067daabcaa",
+      "assetId": "../../assets/icons/red_saboteur.png",
+      "name": "red saboteur",
+      "type": "image",
+      "position": {
+        "x": 260,
+        "y": 170
+      },
+      "scale": {
+        "x": 0.14,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/red_saboteur.png"
+    },
+    {
+      "id": "49835474-943f-46ac-9a54-171b7cdb21ec",
+      "assetId": "../../assets/icons/yellow_banker.png",
+      "name": "yellow banker",
+      "type": "image",
+      "position": {
+        "x": 288,
+        "y": 169
+      },
+      "scale": {
+        "x": 0.14,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/yellow_banker.png"
+    },
+    {
+      "id": "60816e62-d9bf-43a5-bd43-684d0ef5ff29",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 216,
+        "y": 228
+      },
+      "scale": {
+        "x": 0.58,
+        "y": 0.43
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "*None*",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 12,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "6e9a1269-e789-462a-9af2-53ffbb1325bf",
+      "assetId": "../../assets/icons/rainbow_dragon.png",
+      "name": "rainbow dragon",
+      "type": "image",
+      "position": {
+        "x": 315,
+        "y": 170
+      },
+      "scale": {
+        "x": 0.14,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/rainbow_dragon.png"
+    },
+    {
+      "id": "c0ce8246-8ec6-4e89-8c3c-bc53a197a930",
+      "assetId": "../../assets/icons/white_knowledge.png",
+      "name": "white knowledge",
+      "type": "image",
+      "position": {
+        "x": 260,
+        "y": 197
+      },
+      "scale": {
+        "x": 0.14,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/white_knowledge.png"
+    },
+    {
+      "id": "16d4d6ba-97cc-4bf3-b0e2-87cef4c1fad7",
+      "assetId": "../../assets/icons/blue_industry.png",
+      "name": "blue industry",
+      "type": "image",
+      "position": {
+        "x": 289,
+        "y": 197
+      },
+      "scale": {
+        "x": 0.14,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/blue_industry.png"
+    },
+    {
+      "id": "6284242a-267b-4c4a-be5b-f8455c8472b1",
+      "assetId": "../../assets/icons/green_enforcer.png",
+      "name": "green enforcer",
+      "type": "image",
+      "position": {
+        "x": 315,
+        "y": 197
+      },
+      "scale": {
+        "x": 0.14,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/green_enforcer.png"
+    },
+    {
+      "id": "123dc4c5-cbf6-4b24-a30a-116579c9860d",
+      "assetId": "text-box",
+      "name": "Text Box",
+      "type": "text",
+      "position": {
+        "x": 188,
+        "y": 357
+      },
+      "scale": {
+        "x": 0.65,
+        "y": 0.37
+      },
+      "baseSize": {
+        "width": 260,
+        "height": 120
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#000000",
+      "text": "6",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "backgroundOpacity": 1,
+      "fontSize": 17,
+      "fontBold": false,
+      "fontItalic": false,
+      "fontUnderline": false,
+      "fontStrikethrough": false,
+      "fontFamily": "Georgia",
+      "textAlign": "center",
+      "locked": false
+    },
+    {
+      "id": "7dc47ce4-d023-4399-8f12-d29cd1a5cb9f",
+      "assetId": "../../assets/icons/pearl_transparent.png",
+      "name": "pearl transparent",
+      "type": "image",
+      "position": {
+        "x": 281,
+        "y": 248
+      },
+      "scale": {
+        "x": 0.14,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/pearl_transparent.png"
+    }
+  ],
+  "metadata": {
+    "canvasSize": {
+      "width": 1055,
+      "height": 664
+    }
+  }
+}

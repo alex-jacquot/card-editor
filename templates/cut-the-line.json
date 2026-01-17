@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "exportDate": "2026-01-03T15:27:04.694Z",
+  "exportDate": "2026-01-04T17:30:22.341Z",
   "layers": [
     {
       "id": "f43a2c1d-d11c-4260-b37b-13f33d6bd6f6",
@@ -173,13 +173,13 @@
       "rotation": 0,
       "opacity": 1,
       "tint": "#000000",
-      "text": "Whenever another player is about to draw cards from the **open pile** you can use this card to grab all the cards in the **open pile** immediatly, ignoring your **max hand size**",
+      "text": "*Reaction* \nWhenever another player is about to draw cards from the **open pile** you can use this card to grab all the cards in the **open pile** immediatly, ignoring your **max hand size**",
       "transparencyColors": [
         null,
         null
       ],
       "backgroundOpacity": 1,
-      "fontSize": 12,
+      "fontSize": 11.5,
       "fontBold": false,
       "fontItalic": false,
       "fontUnderline": false,

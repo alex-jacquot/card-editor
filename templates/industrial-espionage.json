@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "exportDate": "2025-12-28T21:20:12.905Z",
+  "exportDate": "2026-01-05T18:40:06.188Z",
   "layers": [
     {
       "id": "f43a2c1d-d11c-4260-b37b-13f33d6bd6f6",
@@ -281,7 +281,7 @@
       "rotation": 0,
       "opacity": 1,
       "tint": "#000000",
-      "text": "\n*Permanent*. Place a copy token on any active **permanent** card; you may move the token at the start of your turn before your turn action. This card copies any card the token it's placed on",
+      "text": "\n*Permanent*. Place a copy token on any active **Permanent** card, you may move the token at the start of your turn before your turn action. This card copies any card the token it's placed on",
       "transparencyColors": [
         null,
         null
@@ -326,8 +326,8 @@
   ],
   "metadata": {
     "canvasSize": {
-      "width": 772,
-      "height": 784
+      "width": 809,
+      "height": 1219
     }
   }
 }

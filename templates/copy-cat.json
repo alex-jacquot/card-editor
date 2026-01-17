@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "exportDate": "2026-01-02T15:43:55.901Z",
+  "exportDate": "2026-01-04T10:28:49.235Z",
   "layers": [
     {
       "id": "f43a2c1d-d11c-4260-b37b-13f33d6bd6f6",
@@ -173,13 +173,13 @@
       "rotation": 0,
       "opacity": 1,
       "tint": "#000000",
-      "text": "You can play this card immediatly after playing another **non-Permanent** project.\nThe recently played project effect activates once more.",
+      "text": "*Reaction* \nYou can play this card immediatly after playing another **non-Permanent** \nproject. The recently played project effect activates once more.",
       "transparencyColors": [
         null,
         null
       ],
       "backgroundOpacity": 1,
-      "fontSize": 13,
+      "fontSize": 12,
       "fontBold": false,
       "fontItalic": false,
       "fontUnderline": false,
@@ -280,8 +280,8 @@
   ],
   "metadata": {
     "canvasSize": {
-      "width": 943,
-      "height": 984
+      "width": 772,
+      "height": 784
     }
   }
 }

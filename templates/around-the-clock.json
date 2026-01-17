@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "exportDate": "2025-12-27T19:57:32.743Z",
+  "exportDate": "2026-01-05T18:37:59.248Z",
   "layers": [
     {
       "id": "f43a2c1d-d11c-4260-b37b-13f33d6bd6f6",
@@ -235,7 +235,7 @@
       "rotation": 0,
       "opacity": 1,
       "tint": "#000000",
-      "text": "*Permanent*. \nAny **Permanent** cards that cost \ncolors cost 1 less color to you.\nGet 2 **Stars** back if you already have 2 or more active **Permanent** cards",
+      "text": "*Permanent*. \nAny **Permanent** cards that cost \n**Projects** cost you 1 less **Project**.\nGet 2 **Stars** back if you already have 2 or more active **Permanent** cards",
       "transparencyColors": [
         null,
         null
@@ -315,8 +315,8 @@
   ],
   "metadata": {
     "canvasSize": {
-      "width": 880,
-      "height": 520
+      "width": 809,
+      "height": 1196
     }
   }
 }

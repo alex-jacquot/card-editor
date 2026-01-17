@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "exportDate": "2025-12-27T20:59:45.407Z",
+  "exportDate": "2026-01-05T19:13:20.313Z",
   "layers": [
     {
       "id": "f43a2c1d-d11c-4260-b37b-13f33d6bd6f6",
@@ -254,7 +254,7 @@
       "rotation": 0,
       "opacity": 1,
       "tint": "#000000",
-      "text": "Choose your reward: \nSteal **2VP** from someone / +8 **Stars** / +4 **Business Influence** / +7 **Cards** ignoring your max hand limit / place any **Permanent** card from your hand",
+      "text": "Choose your reward: \nSteal **2PP** from someone / +8 **Stars** / +4 **Business Influence** / +7 **Cards** ignoring your max hand limit / place any **Permanent** card from your hand",
       "transparencyColors": [
         null,
         null
@@ -299,8 +299,8 @@
   ],
   "metadata": {
     "canvasSize": {
-      "width": 880,
-      "height": 538
+      "width": 809,
+      "height": 1219
     }
   }
 }

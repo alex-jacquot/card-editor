@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "exportDate": "2026-01-02T16:21:15.161Z",
+  "exportDate": "2026-01-04T17:03:23.320Z",
   "layers": [
     {
       "id": "f43a2c1d-d11c-4260-b37b-13f33d6bd6f6",
@@ -275,11 +275,11 @@
       "name": "CEO transparent",
       "type": "image",
       "position": {
-        "x": 327,
-        "y": 302.99998474121094
+        "x": 330,
+        "y": 305
       },
       "scale": {
-        "x": 0.18,
+        "x": 0.15,
         "y": 1
       },
       "baseSize": {
@@ -299,8 +299,8 @@
   ],
   "metadata": {
     "canvasSize": {
-      "width": 943,
-      "height": 984
+      "width": 772,
+      "height": 784
     }
   }
 }

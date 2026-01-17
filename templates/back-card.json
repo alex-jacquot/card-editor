@@ -1,0 +1,201 @@
+{
+  "version": "1.0.0",
+  "exportDate": "2026-01-04T23:05:56.733Z",
+  "layers": [
+    {
+      "id": "7b31dbe6-de1d-4f67-8587-43f320da1449",
+      "assetId": "../../assets/cards/back-card-parchment.jpeg",
+      "name": "back card parchment",
+      "type": "image",
+      "position": {
+        "x": 180,
+        "y": 160
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/cards/back-card-parchment.jpeg"
+    },
+    {
+      "id": "c2a9e942-c642-4bf1-9145-e89ec853e95f",
+      "assetId": "../../assets/icons/rainbow_dragon.png",
+      "name": "rainbow dragon",
+      "type": "image",
+      "position": {
+        "x": 263,
+        "y": 154.99998474121094
+      },
+      "scale": {
+        "x": 0.19,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/rainbow_dragon.png"
+    },
+    {
+      "id": "7b8f7037-7c85-43df-bc83-3e254ac64898",
+      "assetId": "../../assets/icons/green_enforcer.png",
+      "name": "green enforcer",
+      "type": "image",
+      "position": {
+        "x": 300,
+        "y": 144.99998474121094
+      },
+      "scale": {
+        "x": 0.19,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/green_enforcer.png"
+    },
+    {
+      "id": "5af18164-1e35-4a78-ab06-67bec9c183be",
+      "assetId": "../../assets/icons/yellow_banker.png",
+      "name": "yellow banker",
+      "type": "image",
+      "position": {
+        "x": 238,
+        "y": 186.99998474121094
+      },
+      "scale": {
+        "x": 0.19,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/yellow_banker.png"
+    },
+    {
+      "id": "bf748531-faab-4fe4-9390-9ca9a6c959c9",
+      "assetId": "../../assets/icons/blue_industry.png",
+      "name": "blue industry",
+      "type": "image",
+      "position": {
+        "x": 262,
+        "y": 116.99998474121094
+      },
+      "scale": {
+        "x": 0.19,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/blue_industry.png"
+    },
+    {
+      "id": "9be95f16-dd4f-497b-ad09-ab455c5c17ff",
+      "assetId": "../../assets/icons/red_saboteur.png",
+      "name": "red saboteur",
+      "type": "image",
+      "position": {
+        "x": 225,
+        "y": 145.99998474121094
+      },
+      "scale": {
+        "x": 0.19,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/red_saboteur.png"
+    },
+    {
+      "id": "27d4f556-af9f-4fa7-9758-60adc37fc374",
+      "assetId": "../../assets/icons/white_knowledge.png",
+      "name": "white knowledge",
+      "type": "image",
+      "position": {
+        "x": 289,
+        "y": 187
+      },
+      "scale": {
+        "x": 0.19,
+        "y": 1
+      },
+      "baseSize": {
+        "width": 200,
+        "height": 260
+      },
+      "rotation": 0,
+      "opacity": 1,
+      "tint": "#ffffff",
+      "transparencyColors": [
+        null,
+        null
+      ],
+      "locked": false,
+      "assetPath": "../../assets/icons/white_knowledge.png"
+    }
+  ],
+  "metadata": {
+    "canvasSize": {
+      "width": 880,
+      "height": 538
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "exportDate": "2026-01-01T18:22:03.732Z",
+  "exportDate": "2026-01-05T18:19:48.952Z",
   "layers": [
     {
       "id": "f43a2c1d-d11c-4260-b37b-13f33d6bd6f6",
@@ -299,8 +299,8 @@
   ],
   "metadata": {
     "canvasSize": {
-      "width": 1362,
-      "height": 803
+      "width": 1055,
+      "height": 664
     }
   }
 }
